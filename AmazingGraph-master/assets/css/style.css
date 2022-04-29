@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fontePrincipal: 'Roboto';
+    --fonteSecundaria: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    --cor1-Orange: #D2872C;
+    --cor2-Gray: #766F68;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    height: 100vh;
+    font-family: var(--fontePrincipal);
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: var(--cor1-Orange);
+    font-size: 1.6em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+ 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 480px;
+ 
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+main {
+    margin-left: 80px;
+    padding-bottom: 80px;
+
+    background-image: url(../img/team.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 380px;
+    background-position-x: 270px;
+    background-position-y: 15px;
+}
+
+main h1 {
+    font-size: 3.5em;
+    color: var(--cor2-Gray);
+}
+
+main p {
+    font-size: 1.3em;
+    color: var(--cor2-Gray);
+    margin: 20px 0px 60px 0px;
+}
+
+.bottom {
+    display: inline-block;
+    background-color: #D2872C;
+    color: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 15px;
+
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
