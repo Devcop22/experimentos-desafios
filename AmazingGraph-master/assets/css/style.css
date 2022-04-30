@@ -47,7 +47,7 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 nav a:hover {
@@ -57,7 +57,7 @@ nav a:hover {
 nav ul {
     display: flex;
     list-style: none;
-    margin-left: 480px;
+    margin-left: 490px;
  
 }
 
@@ -72,17 +72,17 @@ main {
     background-image: url(../img/team.jpg);
     background-repeat: no-repeat;
     background-size: 600px 380px;
-    background-position-x: 270px;
+    background-position-x: 266px;
     background-position-y: 15px;
 }
 
 main h1 {
-    font-size: 3.5em;
+    font-size: 3.2em;
     color: var(--cor2-Gray);
 }
 
 main p {
-    font-size: 1.3em;
+    font-size: 1.31em;
     color: var(--cor2-Gray);
     margin: 20px 0px 60px 0px;
 }
@@ -93,10 +93,10 @@ main p {
     color: white;
     padding: 15px;
     width: 220px;
-    border-radius: 15px;
+    border-radius: 10px;
 
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
 }
 
