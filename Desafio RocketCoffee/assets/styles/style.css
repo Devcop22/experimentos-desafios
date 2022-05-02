@@ -1,0 +1,119 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --fontePrimaria: 'Manrope';
+    --fonteSecundaria: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--fonteSecundaria);
+    background-color: var(--backgrond);
+    color: white;
+
+    background-image: url(../img/blur-2.png), url(../img/blur-1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, bottom bottom;
+    background-size: 100% 100%, 100%;
+}
+
+a, li {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+a {
+    color: #FFF;
+    font-family: var(--fontePrimaria);
+}
+
+header {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 200px;
+    list-style: none;
+   
+}
+
+nav li {
+   margin: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--button);
+}
+
+.btcafe {
+    position: relative;
+    left: 110px;
+
+    font-weight: 400;
+    width: 200px;
+    border: 1px solid var(--button);
+    /* position: relative;
+    top: -1px; */
+}
+
+#btcafe2 {
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btcafe:hover {
+    background-color: #8257E5;
+}
+
+h1 {
+    font-family: var(--fontePrimaria);
+    font-size: 5em;
+    text-align: center;
+}
+
+#titulo {
+    position: relative;
+    bottom: 20px;
+    color: black;
+    font-size: 4.8em;
+    text-align: center;
+
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+main {
+    height: 700px;
+    background-image: url(../img/rocket-coffee.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-y: 300px;
+}
+
+
