@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontePrincipal: 'Manrope', sans-serif;
+
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+  }
+
+  body {
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--backgrond);
+      background-image: url(../img/blur-1.png), url(../img/blur-2.png);
+      background-repeat: no-repeat;
+      background-position: bottom left, right top;
+      background-size: 100vh;
+      background-attachment: fixed;
+  }
+
+  header {
+      /* height: 3.12rem; */
+      width: 57.37rem;
+      margin: 3.12rem auto;
+  }
+
+  .conteiner {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  nav ul {
+      display: flex;
+      gap: 2.5rem;
+      align-items: center;
+      margin-left: 120px;
+  }
+
+  nav li {
+      list-style: none;
+     
+  }
+
+  nav a {
+      text-decoration: none;
+      font-family: var(--fontePrincipal);
+      font-size: 0.87rem;
+      color: var(--text-color);
+      display: flex;
+  }
+
+  .logo-menu {
+      margin-left: 1.25rem;
+  }
+
+  .button-menu {
+      font-size: 0.87rem;
+      text-transform: uppercase;
+      border: 1px solid var(--button);
+      border-radius: 0.37rem;
+      padding: 0.68rem 2.37rem;
+      
+      position: relative;
+      left: 6.25rem;
+  }
+
+  h1 {
+      text-align: center;
+      color: var(--text-color);
+      font-family: var(--fontePrincipal);
+      font-size: 5rem;
+  }
+
+  .stroke-logo {
+      color: #000;
+      text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+  }
+
+  .banner {
+      display: flex;
+      margin: auto;
+  }
