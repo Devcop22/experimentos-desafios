@@ -42,12 +42,19 @@
       display: flex;
       gap: 2.5rem;
       align-items: center;
-      margin-left: 120px;
+      /* margin-left: 7.5rem; */
+      position: relative;
+      left: 3rem;
   }
 
   nav li {
       list-style: none;
-     
+      padding: 0.31rem;
+  }
+
+  nav li:hover {
+      background-color: #8257E5;
+      border-radius: 0.37rem;
   }
 
   nav a {
