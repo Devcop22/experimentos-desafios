@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundoPrincipal: #E5E5E5;
+    --fundoPrincipa2:  #C4C4C4;
+    --fontePrincipal: 'Roboto', sans-serif;
+    --fonteSecundaria: 'Arial', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--fundoPrincipal);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 48px;
+    margin: 39px 60px;
+    text-transform: uppercase;
+}
+
+header img:first-child {
+    margin-right: 114px;
+}
+
+header img:last-child {
+    margin-left: 80px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+
+nav a {
+    font-family: var(--fontePrincipal);
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.principal01 {
+    display: flex;
+    flex-basis: 540px;
+    justify-content: center;
+
+    width: 357px;
+    height: 533px;
+}
+
+.conteudo01 h1{
+    font-family: var(--fontePrincipal);
+    font-size: 60px;
+
+    margin-top: 103px;
+    margin-bottom: 21px;
+}
+
+.conteudo01 h2 {
+    font-size: 40px;
+
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+
+.button-comprar {
+    border: none;
+    width: 274px;
+    height: 90px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.principal02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundoPrincipa2);
+    width: 900px;
+    height: 914px;
+
+    position: relative;
+    left: 22px;
+}
+
+.fotos {
+    display: flex;
+    gap: 37.49px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer button {
+    text-transform: uppercase;
+    border: none;
+    width: 437px;
+    height: 166px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--fontePrincipal)
+}
+
+
