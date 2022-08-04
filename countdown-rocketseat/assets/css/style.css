@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+.conteiner {
+    display: flex;
+    gap: 82px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    width: 494px;
+    /* height: 172px; */
+
+    margin-left: 123px;
+    margin-bottom: 19px;
+}
+
+.relogio {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--main-font);
+    font-size: 36px;
+    color: #6C63FF;
+}
+
+.tempo {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #C8C8C8;
+}
+
+.dias, .horas, .minutos, .segundos {
+    font-family: var(--main-font);
+    font-size: 72px;
+    font-weight: 400;
+    color: #4D4C59;
+}
+
+p {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400px;
+    color: #9C9AB6;
+}
+
+.btn {
+    border: none;
+
+    background-color: #6C63FF;
+    border-radius: 10px;
+    width: 160px;
+    height: 46px;
+
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.rocket {
+    width: 607px;
+    height: 435px;
+}
