@@ -1,4 +1,4 @@
-const data = '29 Aug 2022';
+const data = '29 Aug 2024';
 
 const countDown = setInterval(function () {
     const dataAlvo = new Date(data);
